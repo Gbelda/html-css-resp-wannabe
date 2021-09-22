@@ -72,6 +72,88 @@ img {
   clear: both;
 }
 
+/*******************
+BONUS TABLET 768PX
+*******************/
+
+@media screen and (max-width: 767px) {
+  
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container{
+  padding: 5px;
+}
+
+.row{
+  width: 100%;
+  margin: 0px;
+}
+.container .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.row h1{
+  font-size: 2rem;
+  width: 100%;
+}
+
+.row h3{
+font-size: 1.2rem;
+}
+
+img{
+    height: 100px;
+    padding-top: 20px;
+}
+
+#lezioni .row>.left,
+#lezioni .row>.right,
+#steps .row>.left,
+#steps .row>.central,
+#steps .row>.right,
+#why .row>.first,
+#why .row>.second,
+#why .row>.third{
+  width: 50%;
+  font-size: 1rem;
+}
+
+#lezioni,
+#why{
+  background-color: #F2F2CD;
+}
+
+#why .row>.first,
+#why .row>.second,
+#why .row>.third{
+  margin-top: 20px;
+}
+
+hr{
+  visibility: hidden;
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
 
 /*******************
   VIEWPORT < 420PX
